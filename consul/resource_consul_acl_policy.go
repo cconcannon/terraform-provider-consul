@@ -2,7 +2,7 @@ package consul
 
 import (
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"strings"
 
 	consulapi "github.com/hashicorp/consul/api"

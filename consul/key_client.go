@@ -2,7 +2,7 @@ package consul
 
 import (
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 
 	consulapi "github.com/hashicorp/consul/api"
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
